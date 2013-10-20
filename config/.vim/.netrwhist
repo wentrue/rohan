@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/usr/lib64/python2.7/site-packages/DoubanAlg'
+let g:netrw_dirhist_2='/var/shire/corelib/utils'
+let g:netrw_dirhist_3='/home2/wentrue/bubbler/bubbler/tools'
+let g:netrw_dirhist_4='/home2/wentrue/projects/isengard/controllers'
+let g:netrw_dirhist_5='/var/shire/luzong/note'
+let g:netrw_dirhist_6='/home2/wentrue/projects/bubbler'

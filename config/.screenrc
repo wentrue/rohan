@@ -1,0 +1,9 @@
+#在vi或less之类退出时完全恢复到原屏幕内容
+altscreen on
+　　
+#底部搞个任务栏（颜色啥的自己调）
+hardstatus on
+hardstatus alwayslastline " %-Lw%{= Bw}%n%f %t%{-}%+Lw"
+
+# 屏幕缓冲区 1024 行。
+defscrollback 1024

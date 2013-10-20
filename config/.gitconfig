@@ -1,0 +1,35 @@
+[user]
+	name = guozhu.wgz
+	email = guozhu.wgz@alibaba-inc.com
+[alias]
+    st = status -bs # 输出格式很像 svn/hg 的 status. 默认的格式废话实在太多了.
+    di = diff
+    dc = diff --cached # 执行 `git ci` 时会提交的内容.
+    rc = rm --cached
+    ci = commit
+    ca = commit -av # 加上-a之后行为同 hg/svn 的 commit, -v可以直接在编辑器里预览提交内容.
+    amend = commit --amend -C HEAD # amend并直接重用旧的提交注释
+    br = branch
+    sb = show-branch
+    co = checkout
+    rv = checkout HEAD --force -- # 相当于 `hg revert`
+    ff = merge --ff-only # rebase之后用这个来确保merge时不会生成新提交
+    graf = log --graph --oneline --decorate # 华丽的演进图
+    cw = log --format='%an : %p-%h %s' # 忘了是干什么的了. 一直也没用
+    sh = stash
+    nb = checkout --track HEAD -b # 创建一个本地分支并追踪当前的分支, 后面会详述追踪(tracking)
+    tip = log -1 --stat # 每天上班时的第一个命令
+    pl = pull
+    ph = push
+    pm = push origin master:master
+    rb = rebase
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+[merge]
+    tool = gvimdiff
+[color]
+    diff = auto
+    status = auto
+[core]
+    pager = less -+FSRX -FRX
+    editor = /usr/local/bin/vim
+    #excludesfile = ~/.vcsignore
