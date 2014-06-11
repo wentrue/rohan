@@ -1,6 +1,6 @@
 [user]
-	name = guozhu.wgz
-	email = guozhu.wgz@alibaba-inc.com
+	name = guozhuwen
+	email = guozhuwen@gmail.com
 [alias]
     st = status -bs # 输出格式很像 svn/hg 的 status. 默认的格式废话实在太多了.
     di = diff
